@@ -6,4 +6,11 @@ class greetings {
     }
 }
 
+class Greetingsnew extends greetings {
+    public function __construct() {
+        parent::welcome();
+    }
+}
+
 greetings::welcome();
+$newGreetings = new Greetingsnew();
